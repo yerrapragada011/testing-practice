@@ -3,3 +3,7 @@ export function capitalize(string) {
   let firstLetterCap = firstLetter.toUpperCase()
   return firstLetterCap
 }
+
+export function reverseString(string) {
+  return string.split('').reverse().join('')
+}
